@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	justify-content: center; align-items: center;
+	margin: 0; width: 100vw; height: 100vh;
+	background-color: lightgrey;
+}
+
+#display {
+	background: white;
+	height: 5vh;
+	padding: 40px; margin: 0;
+}
+
+#calculator {
+	margin: 0; padding: 50px;
+	width: 35vw; height: 60vh;
+	background-color: grey;
+}
+
+.operations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 30px;
+	padding: 40px;
+}
+
+button{
+	width: 10vw; height: 5vh;
+}
